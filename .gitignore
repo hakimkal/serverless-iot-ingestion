@@ -1,0 +1,28 @@
+# environment
+.env
+
+# IDE stuff
+.idea/
+.vscode/
+
+# binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# go build output
+bin/
+dist/
+build/
+
+# generated directories
+tmp/
+cache/
+
+# Go modules
+vendor/
+
+# macOS
+.DS_Store

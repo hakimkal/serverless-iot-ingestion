@@ -1,0 +1,12 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    queries: "./" # Path to your SQL query files
+    schema: "migrations"   # Path to your SQL schema files (or migration directory)
+    gen:
+      go:
+        package: "db" # Package name for generated code
+        out: "internal/db" # Output directory for generated code
+        sql_package: "pgx/v5"
+        emit_json_tags: true
+        emit_db_tags: true

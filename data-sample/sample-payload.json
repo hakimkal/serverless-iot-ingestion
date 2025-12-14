@@ -1,0 +1,205 @@
+[
+  {
+    "source": "IOTNODE01",
+    "data": {
+      "event": "success",
+      "data": {
+        "amount": 12.5,
+        "amountPaid": 12.5,
+        "channel": "CARD",
+        "currency": "USD",
+        "customerName": "Alice Brown",
+        "fee": 0.5,
+        "feeRatio": 4.0,
+        "feeType": "Ratio",
+        "stampDutyFee": 0,
+        "appliedStampDutyFee": false,
+        "payReference": "PYDCRD-2025121409010001",
+        "created": "2025-12-14 09:01:00",
+        "paymentCompletionDate": "2025-12-14 09:01:22",
+        "paymentStartDate": "2025-12-14 09:01:00",
+        "paymentStatus": "SUCCESSFUL",
+        "reference": "639007921001",
+        "vat": 0.0,
+        "responseCode": "00",
+        "narration": "",
+        "payer": { "sourceAccountName": "Alice Brown" }
+      }
+    }
+  },
+  {
+    "source": "IOTNODE02",
+    "data": {
+      "event": "success",
+      "data": {
+        "amount": 55.0,
+        "amountPaid": 55.0,
+        "channel": "BANK_TRANSFER",
+        "currency": "USD",
+        "customerName": "Michael Stone",
+        "fee": 1.1,
+        "feeRatio": 2.0,
+        "feeType": "Ratio",
+        "stampDutyFee": 0,
+        "appliedStampDutyFee": false,
+        "payReference": "PYDTRF-2025121409020002",
+        "created": "2025-12-14 09:02:00",
+        "paymentCompletionDate": "2025-12-14 09:02:40",
+        "paymentStartDate": "2025-12-14 09:02:00",
+        "paymentStatus": "SUCCESSFUL",
+        "reference": "639007921002",
+        "vat": 0.0,
+        "responseCode": "00",
+        "narration": "wallet topup",
+        "payer": { "sourceAccountName": "Michael Stone" }
+      }
+    }
+  },
+  {
+    "source": "IOTNODE03",
+    "data": {
+      "event": "success",
+      "data": {
+        "amount": 9.99,
+        "amountPaid": 9.99,
+        "channel": "USSD",
+        "currency": "USD",
+        "customerName": "Grace Lee",
+        "fee": 0.2,
+        "feeRatio": 2.0,
+        "feeType": "Ratio",
+        "stampDutyFee": 0,
+        "appliedStampDutyFee": false,
+        "payReference": "PYDUSS-2025121409030003",
+        "created": "2025-12-14 09:03:00",
+        "paymentCompletionDate": "2025-12-14 09:03:25",
+        "paymentStartDate": "2025-12-14 09:03:00",
+        "paymentStatus": "SUCCESSFUL",
+        "reference": "639007921003",
+        "vat": 0.0,
+        "responseCode": "00",
+        "narration": "",
+        "payer": { "sourceAccountName": "Grace Lee" }
+      }
+    }
+  },
+  {
+    "source": "IOTNODE04",
+    "data": {
+      "event": "success",
+      "data": {
+        "amount": 120.0,
+        "amountPaid": 120.0,
+        "channel": "CARD",
+        "currency": "USD",
+        "customerName": "Daniel Fox",
+        "fee": 3.6,
+        "feeRatio": 3.0,
+        "feeType": "Ratio",
+        "stampDutyFee": 0,
+        "appliedStampDutyFee": false,
+        "payReference": "PYDCRD-2025121409040004",
+        "created": "2025-12-14 09:04:00",
+        "paymentCompletionDate": "2025-12-14 09:04:31",
+        "paymentStartDate": "2025-12-14 09:04:00",
+        "paymentStatus": "SUCCESSFUL",
+        "reference": "639007921004",
+        "vat": 0.0,
+        "responseCode": "00",
+        "narration": "subscription",
+        "payer": { "sourceAccountName": "Daniel Fox" }
+      }
+    }
+  },
+  {
+    "source": "IOTNODE05",
+    "data": {
+      "event": "success",
+      "data": {
+        "amount": 78.25,
+        "amountPaid": 78.25,
+        "channel": "QR",
+        "currency": "USD",
+        "customerName": "Sarah Kim",
+        "fee": 1.6,
+        "feeRatio": 2.0,
+        "feeType": "Ratio",
+        "stampDutyFee": 0,
+        "appliedStampDutyFee": false,
+        "payReference": "PYDQR-2025121409050005",
+        "created": "2025-12-14 09:05:00",
+        "paymentCompletionDate": "2025-12-14 09:05:18",
+        "paymentStartDate": "2025-12-14 09:05:00",
+        "paymentStatus": "SUCCESSFUL",
+        "reference": "639007921005",
+        "vat": 0.0,
+        "responseCode": "00",
+        "narration": "",
+        "payer": { "sourceAccountName": "Sarah Kim" }
+      }
+    }
+  },
+
+  {
+    "source": "IOTNODE06",
+    "data": { "event": "success", "data": { "amount": 18.0, "amountPaid": 18.0, "channel": "CARD", "currency": "USD", "customerName": "User 6", "fee": 0.6, "feeRatio": 3.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDCRD-2025121409060006", "created": "2025-12-14 09:06:00", "paymentCompletionDate": "2025-12-14 09:06:20", "paymentStartDate": "2025-12-14 09:06:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921006", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 6" } } }
+  },
+  {
+    "source": "IOTNODE07",
+    "data": { "event": "success", "data": { "amount": 42.0, "amountPaid": 42.0, "channel": "BANK_TRANSFER", "currency": "USD", "customerName": "User 7", "fee": 1.0, "feeRatio": 2.5, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDTRF-2025121409070007", "created": "2025-12-14 09:07:00", "paymentCompletionDate": "2025-12-14 09:07:30", "paymentStartDate": "2025-12-14 09:07:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921007", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 7" } } }
+  },
+  {
+    "source": "IOTNODE08",
+    "data": { "event": "success", "data": { "amount": 5.0, "amountPaid": 5.0, "channel": "USSD", "currency": "USD", "customerName": "User 8", "fee": 0.1, "feeRatio": 2.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDUSS-2025121409080008", "created": "2025-12-14 09:08:00", "paymentCompletionDate": "2025-12-14 09:08:15", "paymentStartDate": "2025-12-14 09:08:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921008", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 8" } } }
+  },
+  {
+    "source": "IOTNODE09",
+    "data": { "event": "success", "data": { "amount": 250.0, "amountPaid": 250.0, "channel": "CARD", "currency": "USD", "customerName": "User 9", "fee": 5.0, "feeRatio": 2.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDCRD-2025121409090009", "created": "2025-12-14 09:09:00", "paymentCompletionDate": "2025-12-14 09:09:40", "paymentStartDate": "2025-12-14 09:09:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921009", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 9" } } }
+  },
+  {
+    "source": "IOTNODE10",
+    "data": { "event": "success", "data": { "amount": 30.0, "amountPaid": 30.0, "channel": "QR", "currency": "USD", "customerName": "User 10", "fee": 0.9, "feeRatio": 3.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDQR-2025121409100010", "created": "2025-12-14 09:10:00", "paymentCompletionDate": "2025-12-14 09:10:18", "paymentStartDate": "2025-12-14 09:10:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921010", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 10" } } }
+  },
+
+  {
+    "source": "IOTNODE11",
+    "data": { "event": "success", "data": { "amount": 11.0, "amountPaid": 11.0, "channel": "CARD", "currency": "USD", "customerName": "User 11", "fee": 0.3, "feeRatio": 2.7, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDCRD-2025121409110011", "created": "2025-12-14 09:11:00", "paymentCompletionDate": "2025-12-14 09:11:21", "paymentStartDate": "2025-12-14 09:11:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921011", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 11" } } }
+  },
+  {
+    "source": "IOTNODE12",
+    "data": { "event": "success", "data": { "amount": 65.0, "amountPaid": 65.0, "channel": "BANK_TRANSFER", "currency": "USD", "customerName": "User 12", "fee": 1.3, "feeRatio": 2.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDTRF-2025121409120012", "created": "2025-12-14 09:12:00", "paymentCompletionDate": "2025-12-14 09:12:33", "paymentStartDate": "2025-12-14 09:12:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921012", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 12" } } }
+  },
+  {
+    "source": "IOTNODE13",
+    "data": { "event": "success", "data": { "amount": 22.0, "amountPaid": 22.0, "channel": "USSD", "currency": "USD", "customerName": "User 13", "fee": 0.4, "feeRatio": 2.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDUSS-2025121409130013", "created": "2025-12-14 09:13:00", "paymentCompletionDate": "2025-12-14 09:13:19", "paymentStartDate": "2025-12-14 09:13:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921013", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 13" } } }
+  },
+  {
+    "source": "IOTNODE14",
+    "data": { "event": "success", "data": { "amount": 99.0, "amountPaid": 99.0, "channel": "CARD", "currency": "USD", "customerName": "User 14", "fee": 2.0, "feeRatio": 2.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDCRD-2025121409140014", "created": "2025-12-14 09:14:00", "paymentCompletionDate": "2025-12-14 09:14:36", "paymentStartDate": "2025-12-14 09:14:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921014", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 14" } } }
+  },
+  {
+    "source": "IOTNODE15",
+    "data": { "event": "success", "data": { "amount": 14.0, "amountPaid": 14.0, "channel": "QR", "currency": "USD", "customerName": "User 15", "fee": 0.3, "feeRatio": 2.1, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDQR-2025121409150015", "created": "2025-12-14 09:15:00", "paymentCompletionDate": "2025-12-14 09:15:14", "paymentStartDate": "2025-12-14 09:15:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921015", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 15" } } }
+  },
+
+  {
+    "source": "IOTNODE16",
+    "data": { "event": "success", "data": { "amount": 60.0, "amountPaid": 60.0, "channel": "CARD", "currency": "USD", "customerName": "User 16", "fee": 1.8, "feeRatio": 3.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDCRD-2025121409160016", "created": "2025-12-14 09:16:00", "paymentCompletionDate": "2025-12-14 09:16:29", "paymentStartDate": "2025-12-14 09:16:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921016", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 16" } } }
+  },
+  {
+    "source": "IOTNODE17",
+    "data": { "event": "success", "data": { "amount": 8.0, "amountPaid": 8.0, "channel": "USSD", "currency": "USD", "customerName": "User 17", "fee": 0.2, "feeRatio": 2.5, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDUSS-2025121409170017", "created": "2025-12-14 09:17:00", "paymentCompletionDate": "2025-12-14 09:17:12", "paymentStartDate": "2025-12-14 09:17:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921017", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 17" } } }
+  },
+  {
+    "source": "IOTNODE18",
+    "data": { "event": "success", "data": { "amount": 180.0, "amountPaid": 180.0, "channel": "BANK_TRANSFER", "currency": "USD", "customerName": "User 18", "fee": 3.6, "feeRatio": 2.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDTRF-2025121409180018", "created": "2025-12-14 09:18:00", "paymentCompletionDate": "2025-12-14 09:18:41", "paymentStartDate": "2025-12-14 09:18:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921018", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 18" } } }
+  },
+  {
+    "source": "IOTNODE19",
+    "data": { "event": "success", "data": { "amount": 27.0, "amountPaid": 27.0, "channel": "QR", "currency": "USD", "customerName": "User 19", "fee": 0.8, "feeRatio": 3.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDQR-2025121409190019", "created": "2025-12-14 09:19:00", "paymentCompletionDate": "2025-12-14 09:19:17", "paymentStartDate": "2025-12-14 09:19:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921019", "vat": 0.0, "responseCode": "00", "narration": "", "payer": { "sourceAccountName": "User 19" } } }
+  },
+  {
+    "source": "IOTNODE20",
+    "data": { "event": "success", "data": { "amount": 15.0, "amountPaid": 15.0, "channel": "CARD", "currency": "USD", "customerName": "User 20", "fee": 0.5, "feeRatio": 3.0, "feeType": "Ratio", "stampDutyFee": 0, "appliedStampDutyFee": false, "payReference": "PYDCRD-2025121409200020", "created": "2025-12-14 09:20:00", "paymentCompletionDate": "2025-12-14 09:20:24", "paymentStartDate": "2025-12-14 09:20:00", "paymentStatus": "SUCCESSFUL", "reference": "639007921020", "vat": 0.0, "responseCode": "00", "narration": "api test", "payer": { "sourceAccountName": "User 20" } } }
+  }
+]
